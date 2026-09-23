@@ -1,0 +1,14 @@
+/* You can add global styles to this file, and also import other style files */
+/* Responsive helpers */
+html, body { height: 100%; margin: 0; padding: 0; }
+
+@media (max-width: 768px) {
+  body { font-size: 14px; }
+}
+
+/* Pour que les graphiques ne débordent pas */
+.ngx-charts {
+  overflow-x: auto;
+  display: flex;
+  justify-content: center;
+}
